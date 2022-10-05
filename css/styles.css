@@ -1,0 +1,136 @@
+/* 
+цвет основного текста #757575 
+цвет заголовков #212121
+цвет при фокусе #2196F3
+цвет в футере и при наведени на кнопки #FFFFFF
+*/
+
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --white-color: #FFFFFF;
+    --accent-color: #2196F3;
+
+}
+body{
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--title-text-color);
+
+}
+
+                         /* header */
+/* logo */
+.logo{
+    text-decoration: none;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+   
+}
+.logo-studio{
+    color: #000000;
+}
+
+.logo-web{
+    color: var(--accent-color);
+}
+/* navigation */
+.nav{
+    list-style: none;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+/* nav_mid */
+.nav_mid_st ,.nav_mid_portfolio ,.nav_mid_kontact{
+    color: var(--title-text-color);
+}
+
+
+/* nav_right */
+.nav_right_mail{
+    color: var(--accent-color);
+}
+    
+.nav_right_number{
+    color: var(--primary-text-color);
+}
+
+                               /* hero */
+.hero_title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    /* color: #FFFFFF; */
+}
+
+/* button */
+.hero_btn{
+    text-align: center;
+    font-family: Roboto;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    
+                                  /* h2 h3 h4 */
+}
+.h2, h3, h4{
+    font-weight: 700;
+}
+
+                                  /* peculiarity */
+.peculiarity-title{
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.peculiarity-text{
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+                                      /* progects */
+.progects_title{
+    font-size: 36px;
+    line-height: 1.2;
+}
+ 
+                                        /* team */
+
+.team_title{
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.team_name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.team_job{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/* footer/ */
+.address{
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.address_info{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+}
