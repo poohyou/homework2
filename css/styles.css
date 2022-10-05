@@ -39,6 +39,7 @@ body{
 }
 /* navigation */
 .nav{
+    text-decoration: none;
     list-style: none;
     color: var(--title-text-color);
     font-weight: 500;
@@ -48,6 +49,8 @@ body{
 
 /* nav_mid st*/
 .nav_mid_portfolio ,.nav_mid_kontact{
+    text-decoration: none;
+    list-style: none;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
