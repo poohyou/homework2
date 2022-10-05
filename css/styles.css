@@ -10,7 +10,7 @@
     --title-text-color: #212121;
     --white-color: #FFFFFF;
     --accent-color: #2196F3;
-
+    --bck-portfolio: #F5F4FA;
 }
 body{
     font-family: roboto;
@@ -46,10 +46,25 @@ body{
     line-height: 1.2;
 }
 
-/* nav_mid */
-.nav_mid_st ,.nav_mid_portfolio ,.nav_mid_kontact{
+/* nav_mid st*/
+.nav_mid_portfolio ,.nav_mid_kontact{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.nav_mid_st{
+    color: var(--accent-color);
+}
+/* nav mid portfolio */
+.nav_mid_if_st ,.nav_mid_if_kontact{
     color: var(--title-text-color);
 }
+.nav_mid_if_portfolio{
+    color: var(--accent-color);
+}
+
+
 
 
 /* nav_right */
@@ -144,4 +159,19 @@ body{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.9;
+}
+
+.portfolio_btn{
+    color: var(--title-text-color);
+    font-family: roboto;
+    background-color: var(--bck-portfolio);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    
+}
+.portfolio_btn:hover{
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
