@@ -18,10 +18,32 @@ body{
     font-weight: 400;
     color: var(--title-text-color);
 
-    /* Убрал точки */
+    /* Убрал точки и подчеркивания */
 }
 li{
     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+                    /* h1 h2 h3 h4 */
+.h2, h3, h4{
+    font-weight: 700;
+}
+/* Убрал отступы */
+h1, 
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
                          /* header */
@@ -106,12 +128,8 @@ a.nav_right_mail{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    
-                                  /* h2 h3 h4 */
-}
-.h2, h3, h4{
-    font-weight: 700;
-}
+}  
+
 
                                   /* peculiarity */
 .peculiarity-title{
@@ -158,7 +176,7 @@ a.nav_right_mail{
 }
 
 .address_info{
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
 }
 
                           /* portfolio */
