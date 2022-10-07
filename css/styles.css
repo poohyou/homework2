@@ -39,12 +39,13 @@ body{
 }
 /* navigation */
 .nav{
-    text-decoration: none;
-    list-style: none;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
+}
+a.nav_mid_st{
+    text-decoration: none;
 }
 
 /* nav_mid st*/
@@ -61,9 +62,11 @@ body{
 }
 /* nav mid portfolio */
 .nav_mid_if_st ,.nav_mid_if_kontact{
+    text-decoration: none;
     color: var(--title-text-color);
 }
 .nav_mid_if_portfolio{
+    text-decoration: none;
     color: var(--accent-color);
 }
 
@@ -71,11 +74,13 @@ body{
 
 
 /* nav_right */
-.nav_right_mail{
+a.nav_right_mail{
+    text-decoration: none;
     color: var(--accent-color);
 }
     
 .nav_right_number{
+    text-decoration: none;
     color: var(--primary-text-color);
 }
 
@@ -152,7 +157,7 @@ body{
     color: rgba(255, 255, 255, 0.6);;
 }
 
-/* portfolio */
+                          /* portfolio */
 
 .portfolio_title{
     font-size: 18px;
@@ -163,7 +168,7 @@ body{
     font-size: 16px;
     line-height: 1.9;
 }
-
+/* portfolio btn */
 .portfolio_btn{
     color: var(--title-text-color);
     font-family: roboto;
@@ -178,3 +183,4 @@ body{
     color: var(--white-color);
     background-color: var(--accent-color);
 }
+
