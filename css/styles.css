@@ -13,18 +13,22 @@
     --bck-portfolio: #F5F4FA;
 }
 body{
-    font-family: roboto;
+    font-family: 'roboto';
     font-style: normal;
     font-weight: 400;
     color: var(--title-text-color);
 
+    /* Убрал точки */
+}
+li{
+    list-style: none;
 }
 
                          /* header */
 /* logo */
 .logo{
     text-decoration: none;
-    font-family: raleway;
+    font-family: 'raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
