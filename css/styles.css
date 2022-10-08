@@ -109,10 +109,16 @@ img {
 .nav_mid_two,
 .nav_mid_three:not(:last-child) {
     margin-right: 50px;
+}
+.nav_mid_one {
     width: 45px;
+}
+.nav_mid_two {
+    width: 72px;
 }
 .nav_mid_three{
     margin-right: 344px;
+    width: 64px;
 }
 
 .nav_right {
