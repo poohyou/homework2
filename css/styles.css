@@ -205,9 +205,20 @@ a.nav_right_mail{
 
 
                              /* PECULIARITY SECTION*/
+
+.peculiarity-conteiner{
+    display: flex;
+    padding-top: 94px;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+.peculiarite-item{
+    width: 270px;
+}                             
 .peculiarity-title{
     font-size: 14px;
     line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 .peculiarity-text{
