@@ -35,14 +35,11 @@ h1,
 h2,
 h3,
 h4,
-
-                      /* Margin-Padding-Blok */
 p {
     margin-top: 0;
     margin-bottom: 0;
 }
 ul,
-/* Убрать падинги, маржины и сдвинуть все влево */
 ol {
     margin-top: 0;
     margin-bottom: 0;
@@ -65,10 +62,12 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
-                         /* HEADER */
+                         /* HEADER SECTION */
 /* LOGO */
 .conteiner_header {
     display: flex;
+    align-items: center;
+
 }
 
 
@@ -78,23 +77,49 @@ img {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-   
-}
-.nav{
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
 }
 
-.logo-studio{
+.logo_studio{
     color: #000000;
+    margin-right: 113px;
 }
 
 .logo-web{
     color: var(--accent-color);
 }
+
 /* NAVIGATION */
+.nav{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    display: flex;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.nav_mid {
+    display: flex;
+}
+
+.nav_mid_one,
+.nav_mid_two,
+.nav_mid_three:not(:last-child) {
+    margin-right: 50px;
+}
+.nav_mid_three{
+    margin-right: 344px;
+}
+
+.nav_right {
+    display: flex;
+}
+.nav_right_auto:not(:last-child){
+    margin-right: 50px;
+}
+
+
 
 a.nav_mid_st{
     text-decoration: none;
@@ -136,14 +161,22 @@ a.nav_right_mail{
     color: var(--primary-text-color);
 }
 
-                               /* HERO */
+                               /* HERO SECTION */
+
+.conteiner_hero{
+    align-items: center;
+}                              
 .hero_title{
     text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    display: block;
+    padding-left: 452px;
+    padding-right: 452px;
     /* color: #FFFFFF; */
 }
+
 
 /* button */
 .hero_btn{
@@ -157,7 +190,7 @@ a.nav_right_mail{
 }  
 
 
-                             /* PECULIARITY */
+                             /* PECULIARITY SECTION*/
 .peculiarity-title{
     font-size: 14px;
     line-height: 1.2;
@@ -169,13 +202,13 @@ a.nav_right_mail{
     line-height: 1.7;
 }
 
-                                 /* PROGECTS */
+                                 /* PROGECTS SECTION */
 .progects_title{
     font-size: 36px;
     line-height: 1.2;
 }
  
-                                  /* TEAM */
+                                  /* TEAM SECTION */
 
 .team_title{
     font-size: 36px;
@@ -193,7 +226,7 @@ a.nav_right_mail{
     line-height: 1.2;
 }
 
-                              /* FOOTER/ */
+                              /* FOOTER SECTION/ */
 .address{
     color: var(--white-color);
     font-size: 14px;
@@ -205,7 +238,7 @@ a.nav_right_mail{
     color: rgba(255, 255, 255, 0.6);
 }
 
-                                /* PORTFOLIO */
+                                /* PORTFOLIO SECTION*/
 
 .portfolio_title{
     font-size: 18px;
