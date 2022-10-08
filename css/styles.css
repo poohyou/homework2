@@ -242,6 +242,14 @@ a.nav_right_mail{
 .progects_title{
     font-size: 36px;
     line-height: 1.2;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.progect_img {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 94px;
 }
  
                                   /* TEAM SECTION */
@@ -249,17 +257,29 @@ a.nav_right_mail{
 .team_title{
     font-size: 36px;
     line-height: 1.2;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
 }
-
+.team_group {
+    display: flex;
+    gap: 30px;
+}
+.team_img {
+    margin-bottom: 30px;
+}
 .team_name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .team_job{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.2;
+    text-align: center;
 }
 
                               /* FOOTER SECTION/ */
