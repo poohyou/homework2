@@ -11,6 +11,7 @@
     --white-color: #FFFFFF;
     --accent-color: #2196F3;
     --bck-portfolio: #F5F4FA;
+    --bckground-color: #2F303A;
 }
 body{
     font-family: 'roboto';
@@ -166,6 +167,9 @@ a.nav_right_mail{
 .conteiner_hero {
     display: flex;
     justify-content: center;
+    background-color: var(--bckground-color);
+    width: 1600px;
+    height: 600px;
 }                              
 .hero_title{
     text-align: center;
@@ -173,12 +177,11 @@ a.nav_right_mail{
     font-size: 44px;
     line-height: 1.4;
     display: block;
-   margin-left: 452px;
-   margin-right: 452px;
-   margin-top: 200px;
+   padding-left: 452px;
+   padding-right: 452px;
+   padding-top: 200px;
    margin-bottom: 30px;
-   
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 .hero_btn {
     width: 216px;
@@ -187,7 +190,7 @@ a.nav_right_mail{
     border: 0;
     margin-left: 692px;
     margin-right: 692px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     text-align: center;
     font-family: Roboto;
     color: var(--white-color);
