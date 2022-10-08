@@ -177,8 +177,7 @@ a.nav_right_mail{
     font-size: 44px;
     line-height: 1.4;
     display: block;
-   padding-left: 452px;
-   padding-right: 452px;
+    text-align: center;
    padding-top: 200px;
    margin-bottom: 30px;
     color: #FFFFFF;
@@ -188,8 +187,9 @@ a.nav_right_mail{
     height: 50px;
     padding: 0;
     border: 0;
-    margin-left: 692px;
-    margin-right: 692px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     /* margin-bottom: 200px; */
     text-align: center;
     font-family: Roboto;
