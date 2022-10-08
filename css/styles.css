@@ -81,7 +81,7 @@ img {
 
 .logo_studio{
     color: #000000;
-    margin-right: 113px;
+    margin-right: 93px;
 }
 
 .logo-web{
@@ -163,8 +163,9 @@ a.nav_right_mail{
 
                                /* HERO SECTION */
 
-.conteiner_hero{
-    align-items: center;
+.conteiner_hero {
+    display: flex;
+    justify-content: center;
 }                              
 .hero_title{
     text-align: center;
@@ -172,14 +173,21 @@ a.nav_right_mail{
     font-size: 44px;
     line-height: 1.4;
     display: block;
-    padding-left: 452px;
-    padding-right: 452px;
+   margin-left: 452px;
+   margin-right: 452px;
+   margin-top: 200px;
+   margin-bottom: 30px;
+   
     /* color: #FFFFFF; */
 }
-
-
-/* button */
-.hero_btn{
+.hero_btn {
+    width: 216px;
+    height: 50px;
+    padding: 0;
+    border: 0;
+    margin-left: 692px;
+    margin-right: 692px;
+    margin-bottom: 200px;
     text-align: center;
     font-family: Roboto;
     color: var(--white-color);
@@ -187,7 +195,10 @@ a.nav_right_mail{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-}  
+}
+
+
+
 
 
                              /* PECULIARITY SECTION*/
