@@ -63,7 +63,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
-                         /* HEADER SECTION */
+/* =============================HEADER SECTION ============================*/
 /* LOGO */
 .conteiner_header {
     display: flex;
@@ -172,8 +172,9 @@ a.nav_right_mail{
     text-decoration: none;
     color: var(--primary-text-color);
 }
+ /* ==========================HEADER SECTION=============================== */
 
-                               /* HERO SECTION */
+ /* ===========================HERO SECTION ================================*/
 
 .conteiner_hero {
     display: flex;
@@ -215,8 +216,9 @@ a.nav_right_mail{
 
 
 
+ /*============================= HERO SECTION============================== */
 
-                             /* PECULIARITY SECTION*/
+ /*=========================== PECULIARITY SECTION========================*/
 
 .peculiarity-conteiner{
     display: flex;
@@ -239,8 +241,10 @@ a.nav_right_mail{
     font-size: 14px;
     line-height: 1.7;
 }
+  /*=========================PECULIARITY SECTION=======================*/
 
-                                 /* PROGECTS SECTION */
+/* =============================PROGECTS SECTION =======================*/
+
 .progects_title{
     font-size: 36px;
     line-height: 1.2;
@@ -248,13 +252,16 @@ a.nav_right_mail{
     text-align: center;
     margin-bottom: 50px;
 }
+    
+
 .progect_img {
     display: flex;
     gap: 30px;
     padding-bottom: 94px;
 }
- 
-                                  /* TEAM SECTION */
+  /* =========================PROGECTS SECTION ========================*/
+
+/* ============================TEAM SECTION ============================*/
 
 .team_title{
     font-size: 36px;
@@ -285,8 +292,9 @@ a.nav_right_mail{
     line-height: 1.2;
     text-align: center;
 }
+  /* ============================TEAM SECTION ==========================*/
 
-                              /* FOOTER SECTION/ */
+/*================================ FOOTER SECTION/ ====================*/
 .footer {
     height: 252px;
     background-color: var(--bckground-color);
@@ -313,8 +321,10 @@ a.nav_right_mail{
 .address_phone {
     color: rgba(255, 255, 255, 0.6);
 }
+/* =======================FOOTER SECTION========================/ */
 
-                    /* PORTFOLIO SECTION*/
+  /* =====================PORTFOLIO SECTION======================*/
+
          
 .portfolio_button{
     display: flex;
@@ -421,4 +431,4 @@ a.nav_right_mail{
     color: var(--white-color);
     background-color: var(--accent-color);
 }
-
+ /* ========================PORTFOLIO SECTION===========================*/ 
