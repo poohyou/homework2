@@ -176,27 +176,29 @@ a.nav_right_mail{
 
  /* ===========================HERO SECTION ================================*/
 .hero_sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     background-color: var(--bckground-color);
 }
-
 .hero_title {
     text-align: center;
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     color: var(--white-color);
     margin-bottom: 30px;
 }
+
 .hero_btn {
     width: 216px;
     height: 50px;
     padding: 0;
     border: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     font-family: Roboto;
     color: var(--white-color);
