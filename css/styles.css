@@ -313,13 +313,17 @@ a.nav_right_mail{
 }
 
                     /* PORTFOLIO SECTION*/
+         
 .portfolio_button{
     display: flex;
 }
+
 .portfolio_img {
     padding-bottom: 94px;
 }
 .p_button {
+    padding-left: 22px;
+    padding-right: 22px;
     margin-top: 94px;
     border: 0;
     font-family: roboto;
@@ -328,35 +332,45 @@ a.nav_right_mail{
     font-size: 16px;
     line-height: 1.62;
     margin-bottom: 34px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 .p_button:hover {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
+
 .portfolio_btn_one {
+    padding-left: 25px;
+    padding-right: 25px;
+    
     margin-left: 297px;
     margin-right: 8px;
-    width: 72px;
+    min-width: 72px;
     height: 38px;
 }
 .portfolio_btn_two {
     margin-right: 8px;
-    width: 125px;
+    min-width: 125px;
     height: 38px;
+   
 }
 .portfolio_btn_three {
     margin-right: 8px;
-    width: 112px;
+    min-width: 112px;
     height: 38px;
+    
 }
 .portfolio_btn_fore {
     margin-right: 8px;
-    width: 103px;
+    min-width: 103px;
     height: 38px;
+    
 }
 .portfolio_btn_five{
-    width: 130px;
+    min-width: 130px;
     height: 38px;
+   
 }
 .portfolio_title{
     margin-left: 24px;
