@@ -175,23 +175,19 @@ a.nav_right_mail{
  /* ==========================HEADER SECTION=============================== */
 
  /* ===========================HERO SECTION ================================*/
-
-.conteiner_hero {
-    padding-bottom: 47px;
-    display: flex;
-    justify-content: center;
+.hero_sect {
+    padding-top: 200px;
+    padding-bottom: 280px;
     background-color: var(--bckground-color);
-    height: 600px;
-}                              
-.hero_title{
-    width: 690px;
+}
+
+.hero_title {
     text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-   padding-top: 200px;
-   margin-bottom: 30px;
-    color: #FFFFFF;
+    color: var(--white-color);
+    margin-bottom: 30px;
 }
 .hero_btn {
     width: 216px;
@@ -201,7 +197,6 @@ a.nav_right_mail{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* margin-bottom: 200px; */
     text-align: center;
     font-family: Roboto;
     color: var(--white-color);
@@ -209,7 +204,7 @@ a.nav_right_mail{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-}
+} 
 
 
 
@@ -220,7 +215,7 @@ a.nav_right_mail{
 
 .peculiarity-conteiner{
     display: flex;
-    padding-top: 47px;
+    padding-top: 94px;
     gap: 30px;
     padding-bottom: 47px;
 }
