@@ -177,10 +177,10 @@ a.nav_right_mail{
  /* ===========================HERO SECTION ================================*/
 
 .conteiner_hero {
+    padding-bottom: 47px;
     display: flex;
     justify-content: center;
     background-color: var(--bckground-color);
-
     height: 600px;
 }                              
 .hero_title{
@@ -190,7 +190,6 @@ a.nav_right_mail{
     font-size: 44px;
     line-height: 1.4;
     display: block;
-    text-align: center;
    padding-top: 200px;
    margin-bottom: 30px;
     color: #FFFFFF;
@@ -222,9 +221,9 @@ a.nav_right_mail{
 
 .peculiarity-conteiner{
     display: flex;
-    padding-top: 94px;
+    padding-top: 47px;
     gap: 30px;
-    padding-bottom: 94px;
+    padding-bottom: 47px;
 }
 .peculiarite-item{
     width: 270px;
@@ -246,6 +245,7 @@ a.nav_right_mail{
 /* =============================PROGECTS SECTION =======================*/
 
 .progects_title{
+    padding-top: 47px;
     font-size: 36px;
     line-height: 1.2;
     display: block;
@@ -262,7 +262,10 @@ a.nav_right_mail{
   /* =========================PROGECTS SECTION ========================*/
 
 /* ============================TEAM SECTION ============================*/
+.team {
+    background-color: #F5F4FA;;
 
+}
 .team_title{
     font-size: 36px;
     line-height: 1.2;
@@ -307,7 +310,7 @@ a.nav_right_mail{
 }
 .logo-studio_footer {
     color: var(--white-color);   
-    padding-top: 50px;
+    padding-top: 60px;
     margin-bottom: 20px;
 }
 .address_city {
