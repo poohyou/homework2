@@ -92,11 +92,12 @@ img {
 
 /* NAVIGATION */
 .nav{
+    display: flex;
+    flex-grow: 1;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
-    display: flex;
     padding-bottom: 32px;
     padding-top: 32px;
 }
@@ -117,12 +118,13 @@ img {
     width: 72px;
 }
 .nav_mid_three{
-    margin-right: 344px;
+    /* margin-right: 344px; */
     width: 64px;
 }
 
 .nav_right {
     display: flex;
+    margin-left: auto;
 }
 .nav_right_auto:not(:last-child){
     margin-right: 50px;
