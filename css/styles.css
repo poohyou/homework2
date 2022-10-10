@@ -347,6 +347,7 @@ a.nav_right_mail{
 }
 
 .p_button {
+    height: 38px;
     border: 0;
     font-family: roboto;
     font-style: normal;
@@ -365,33 +366,36 @@ a.nav_right_mail{
     
    
     min-width: 72px;
-    height: 38px;
 }
 .portfolio_btn_two {
     
     min-width: 125px;
-    height: 38px;
-   
 }
 .portfolio_btn_three {
    
     min-width: 112px;
-    height: 38px;
-    
+
 }
 .portfolio_btn_fore {
     
     min-width: 103px;
-    height: 38px;
 
 }
 .portfolio_btn_five{
     min-width: 130px;
-    height: 38px;
-   
+
 }
+/* PORTFOLIO_IMG */
 .portfolio_img{
     padding-bottom: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.p_block {
+    width: 370px;
+    height: 404px;
 }
 .portfolio_img_info {
     padding-top: 20px;
@@ -409,16 +413,7 @@ a.nav_right_mail{
     line-height: 1.9;
 }
 
-.portfolio_img {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    column-gap: 30px;
-}
-.p_block {
-    width: 370px;
-    height: 404px;
-}
+
 
 
 
