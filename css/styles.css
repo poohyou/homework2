@@ -311,6 +311,8 @@ a.nav_right_mail{
     margin-bottom: 20px;
 }
 .address_info {
+    width: 231px;
+    padding-bottom: 60px;
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
