@@ -304,23 +304,26 @@ a.nav_right_mail{
     background-color: var(--bckground-color);
 }            
                   
-.address{
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: normal;
-}
+
 .logo-studio_footer {
     color: var(--white-color);   
     padding-top: 60px;
     margin-bottom: 20px;
 }
+.address_info {
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+    display: block;
+}
+.address_address:not(:last-child) {
+    padding-bottom: 9px;
+}
 .address_city {
     color: var(--white-color);
-    margin-bottom: 9px;
 }
 .address_link{
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 9px;
 }
 .address_phone {
     color: rgba(255, 255, 255, 0.6);
