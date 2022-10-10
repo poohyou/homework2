@@ -317,7 +317,7 @@ a.nav_right_mail{
     display: block;
 }
 .address_address:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 .address_city {
     color: var(--white-color);
